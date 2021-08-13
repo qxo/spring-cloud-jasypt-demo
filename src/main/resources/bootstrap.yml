@@ -1,0 +1,19 @@
+debug: true
+
+server:
+  port: 8080
+spring:
+  application:
+    name: demo
+
+logging:
+  level:
+    root: DEBUG
+    org: INFO
+    com: INFO
+    sun: INFO
+    org.springframework.boot: DEBUG
+    #com.alibaba.cloud.nacos.client: DEBUG
+    #com.alibaba.cloud.nacos: DEBUG
+#  path: /logs/
+#  file: ${spring.application.name}
