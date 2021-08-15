@@ -54,7 +54,7 @@ public class EnvCopy {
 
   public MutablePropertySources getPropertySources(String propertySourceName) {
     final MutablePropertySources propertySources = copy.getPropertySources();
-    if (false && propertySourceName != null && !propertySources.contains(propertySourceName)) {
+    if (true && propertySourceName != null && !propertySources.contains(propertySourceName)) {
         clonePropertySources(old);
         return copy.getPropertySources();
     }
